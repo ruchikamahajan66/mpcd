@@ -78,7 +78,7 @@ int main()
                
 	}
          
-      // cout<<"_____________Avg Last vel____________________"<<endl;
+      // cout<<"_____________Avg Last  vel____________________"<<endl;
       // for (int i = 0; i < lx; i++)
       // {
       // 	cout<<19.5 <<" "<<i+0.5<<" "<<avg_last_vel[i]/(nofiter/100)<<endl;
