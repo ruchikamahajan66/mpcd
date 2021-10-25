@@ -105,7 +105,7 @@ void velinit(double *vel,int step)
           av_velz = av_velz + vel[3*i+2];
 
          fprintf(fp," %lf\t %lf\t %lf\t %lf\t %lf\t %lf\n", pos[3*i],pos[3*i+1],pos[3*i+2],vel[3*i],vel[3*i+1],vel[3*i+2]);
-      // std::cout << vel[3*i]<< "   " << vel[3*i+1] << "  " << vel[3*i+2] << "   " <<  std::endl;
+      // std::cout <<  vel[3*i]<< "   " << vel[3*i+1] << "  " << vel[3*i+2] << "   " <<  std::endl;
 	}
        fclose(fp);
 
