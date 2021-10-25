@@ -1,0 +1,27 @@
+
+-----Please refer Readme_MPCD_2D.txt for MPCD 2d algorithm----------- 
+
+########################__BEGIN__################################
+
+__________________Input in MPCD 2D_______________________
+
+
+parameters name 			 Description 			          						value/s
+
+1. no of particle            Total number of particles in 2D box                    8000
+2. dimension                 Dimension of the box                                   20x20
+3. cell                      No. of cells                                           400
+4. kb_t                      Boltzmann constant_temperature(energy)                 1.0
+5. mass                      Particles havig mass                                   1.0
+6. force                     Force on particles                                     0.001
+7. cell_size                 Size of the each cell                                  1.0
+8. dt                        Time step                                              0.1               
+
+9. positions of each paticle is calculated by fucntion named as ran2() which is unformly distributed. (please check this method is giving   correct results.
+
+10. velocity of particle is also calculated using ran2() fucntions.While assigning the random velocity of the particle,we are taking prefactor. 
+ vconst=sqrt(12.0*kb_temp/mass) 
+ because we are taking the velocities from the uniform random distribution but which is actually a maxwell boltzman distribution. so in order to make it compatible we have to normalize it and that prefactor comes from there.
+
+
+########################__END__################################
