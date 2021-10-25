@@ -82,7 +82,7 @@ int main()
 
 }
 
-// position
+// position initilization
 void posinit(double *pos)
 {
 
